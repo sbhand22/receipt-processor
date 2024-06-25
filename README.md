@@ -40,6 +40,6 @@ Retrieving Points
 To retrieve points for a specific receipt, use the following curl command with the appropriate receipt ID:
 
    ```bash
-    curl -X GET http://localhost:8080/receipts/c56e508a-d7f4-42ee-ad41-71cf35180d6b/points
+    curl -X GET http://localhost:8080/receipts/{{ID_FROM_PREVIOUS_REQUEST}}/points
    ```
 This command sends a GET request to the server to fetch the points associated with the given receipt ID.
